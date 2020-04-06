@@ -1,5 +1,4 @@
 
 .appContainer {
-  min-height: 100%;
-  background-image: linear-gradient(to bottom right, rgb(153, 0, 255), rgb(255, 153, 0));
+  height: 100%;
 }

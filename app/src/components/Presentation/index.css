@@ -5,7 +5,9 @@
   border-radius: 2px;
   top: 50%;
   left: 50%;
+}
 
+.presentationBox {
   -webkit-animation: slideIn 2s forwards;
   -moz-animation: slideIn 2s forwards;
   animation: slideIn 2s forwards;

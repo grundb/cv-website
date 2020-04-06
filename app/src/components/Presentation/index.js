@@ -23,23 +23,22 @@ const MAIL_ADDRESS = "mailto:johan.grundberg98@gmail.com";
 const LEETCODE_ADDRESS = "https://leetcode.com/user1937kl/";
 
 
-const IconLink = ({imgSource, linkDest}) => {
+const IconLink = ({ imgSource, linkDest }) => {
   return (
     <a href={linkDest} className="clickable" rel="noopener noreferrer" target="_blank">
-      <img 
-        src={imgSource} 
+      <img
+        src={imgSource}
         className="linkImage"
       />
     </a>
   )
 }
 
-const Home = () =>  {
+const Home = () => {
   return (
     <div>
-      <Particles params={particlesConfig}/>
       <div className="presentationBox">
-        <img 
+        <img
           //src={require('../../resources/johanfinal.gif')}
           src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/12439426_1171317892880282_8422294396178317906_n.jpg?_nc_cat=106&_nc_sid=85a577&_nc_ohc=yDAOj2gvCgQAX9AsQ_a&_nc_ht=scontent-arn2-1.xx&oh=8a696248b972e93c8c124f5aff2d5878&oe=5EB17B76"
           className="bigPicture"
@@ -49,13 +48,13 @@ const Home = () =>  {
           <div className="bigName">Johan Grundberg</div>
           <div className="infoText">{MY_INFO}</div>
         </div>
-        <div 
+        <div
           className="linkBox"
         >
-          <IconLink imgSource={LINKEDIN_LOGO} linkDest={LINKEDIN_ADDRESS}/>
-          <IconLink imgSource={GITHUB_LOGO} linkDest={GITHUB_ADDRESS}/>
-          <IconLink imgSource={LEETCODE_LOGO} linkDest={LEETCODE_ADDRESS}/>
-          <IconLink imgSource={MAIL_LOGO} linkDest={MAIL_ADDRESS}/>
+          <IconLink imgSource={LINKEDIN_LOGO} linkDest={LINKEDIN_ADDRESS} />
+          <IconLink imgSource={GITHUB_LOGO} linkDest={GITHUB_ADDRESS} />
+          <IconLink imgSource={LEETCODE_LOGO} linkDest={LEETCODE_ADDRESS} />
+          <IconLink imgSource={MAIL_LOGO} linkDest={MAIL_ADDRESS} />
         </div>
       </div>
     </div>

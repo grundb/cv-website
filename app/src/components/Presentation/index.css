@@ -1,0 +1,92 @@
+.presentationBox {
+  /* Position text in the middle of the page/image */
+  position: absolute;
+  padding: 20px;
+  border-radius: 2px;
+  top: 50%;
+  left: 50%;
+
+  -webkit-animation: slideIn 2s forwards;
+  -moz-animation: slideIn 2s forwards;
+  animation: slideIn 2s forwards;
+  animation-timing-function: ease-out;
+
+  background-color: whitesmoke;
+  
+  /* Grid stuff */ 
+  display: grid;
+  grid-template-columns: auto 500px;
+  grid-template-rows: auto 100px;
+  column-gap: 20px;
+  grid-template-areas: 
+    "picture info"
+    "picture links";
+}
+
+@-webkit-keyframes slideIn {
+  from {
+    transform: translate(-50%, 0%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+}
+@-moz-keyframes slideIn {
+  from {
+    transform: translate(-50%, 0%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+}
+@keyframes slideIn {
+  from {
+    transform: translate(-50%, 0%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+}
+
+.infoBox {
+  margin: 1px solid red;
+  grid-area: info;
+}
+
+.bigPicture {
+  height: 400px;
+  grid-area: picture;
+}
+
+.bigName {
+  text-align: center;
+  font-size: 24pt;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.linkBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  grid-area: links;
+}
+
+.linkImage {
+  height: 60px;
+}
+
+.linkImage:hover {
+  opacity: 0.8;
+}
+
+.linkImage:active {
+  opacity: 0.7;
+}

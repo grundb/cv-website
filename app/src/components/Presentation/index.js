@@ -42,7 +42,7 @@ const Presentation = () => {
         <div className="bigName">Johan Grundberg</div>
         <img
           //src={require('../../resources/johanfinal.gif')}
-          src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/12439426_1171317892880282_8422294396178317906_n.jpg?_nc_cat=106&_nc_sid=85a577&_nc_ohc=yDAOj2gvCgQAX9AsQ_a&_nc_ht=scontent-arn2-1.xx&oh=8a696248b972e93c8c124f5aff2d5878&oe=5EB17B76"
+          src={require('../../resources/me.jpg')}
           className="bigPicture"
           alt="Me"
         />

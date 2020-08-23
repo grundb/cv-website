@@ -11,7 +11,7 @@ import LEETCODE_LOGO from '../../resources/leetcode.png';
 const MAIL_LOGO = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Envelope_font_awesome.svg/512px-Envelope_font_awesome.svg.png";
 
 const MY_INFO = `My name is Johan Grundberg and I am currently doing my
- third year of the combined BSc/MSc programme in Computer Science and 
+ fourth year of the combined BSc/MSc programme in Computer Science and 
  Engineering at KTH Royal Institute of Technology. I am almost always 
  looking for work opportunities in backend, fullstack or frontend development.
  My favorite technologies include Java, Python, Go, JavaScript, React and HTML/CSS. 
